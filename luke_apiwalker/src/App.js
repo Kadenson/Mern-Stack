@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import People from './views/People';
 import Planets from './views/Planets';
 import Searching from './components/Searching';
+import Starships from './views/Starships';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="planets/:planet_id" element={<Planets/>}/>
           <Route path="people/:people_id" element={<People/>}/>
+          <Route path="starships/:starship_id" element={<Starships/>}></Route>
         </Routes>
         
       </fieldset>

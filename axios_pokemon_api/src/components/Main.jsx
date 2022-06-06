@@ -13,6 +13,7 @@ const Main = () => {
             })
             .catch(err => console.log(err))
     }
+    
     return (
         <fieldset>
             <legend>Main.jsx</legend>
